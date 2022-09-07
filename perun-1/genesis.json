@@ -129,17 +129,17 @@
       "deposit_params": {
         "min_deposit": [
           {
-            "denom": "stake",
-            "amount": "10000000"
+            "denom": "uc4e",
+            "amount": "10000000000"
           }
         ],
-        "max_deposit_period": "172800s"
+        "max_deposit_period": "604800s"
       },
       "voting_params": {
-        "voting_period": "172800s"
+        "voting_period": "604800s"
       },
       "tally_params": {
-        "quorum": "0.334000000000000000",
+        "quorum": "0.300000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000"
       }
