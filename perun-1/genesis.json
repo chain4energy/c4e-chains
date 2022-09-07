@@ -50,7 +50,98 @@
     },
     "cfedistributor": {
       "params": {
-        "sub_distributors": []
+        "sub_distributors": [
+          {
+            "destination": {
+              "account": {
+                "id": "c4e_distributor",
+                "type": "MAIN"
+              },
+              "burn_share": {
+                "percent": "0"
+              }
+            },
+            "name": "tx_fee_distributor",
+            "sources": [
+              {
+                "id": "fee_collector",
+                "type": "MODULE_ACCOUNT"
+              }
+            ]
+          },
+          {
+            "destination": {
+              "account": {
+                "id": "validators_rewards_collector",
+                "type": "MODULE_ACCOUNT"
+              },
+              "burn_share": {
+                "percent": "0"
+              },
+              "share": [
+                {
+                  "account": {
+                    "id": "c4e10ep2sxpf2kj6j26w7f4uuafedkuf9sf9xqq3sl",
+                    "type": "BASE_ACCOUNT"
+                  },
+                  "name": "development_fund",
+                  "percent": "5"
+                },
+                {
+                  "account": {
+                    "id": "usage_incentives_collector",
+                    "type": "INTERNAL_ACCOUNT"
+                  },
+                  "name": "usage_incentives",
+                  "percent": "35"
+                }
+              ]
+            },
+            "name": "inflation_and_fee_distributor",
+            "sources": [
+              {
+                "id": "c4e_distributor",
+                "type": "MAIN"
+              }
+            ]
+          },
+          {
+            "destination": {
+              "account": {
+                "id": "c4e1q5vgy0r3w9q4cclucr2kl8nwmfe2mgr6g0jlph",
+                "type": "BASE_ACCOUNT"
+              },
+              "burn_share": {
+                "percent": "0"
+              },
+              "share": [
+                {
+                  "account": {
+                    "id": "green_energy_booster_collector",
+                    "type": "MODULE_ACCOUNT"
+                  },
+                  "name": "green_energy_booster",
+                  "percent": "34"
+                },
+                {
+                  "account": {
+                    "id": "governance_booster_collector",
+                    "type": "MODULE_ACCOUNT"
+                  },
+                  "name": "governance_booster",
+                  "percent": "33"
+                }
+              ]
+            },
+            "name": "usage_incentives_distributor",
+            "sources": [
+              {
+                "id": "usage_incentives_collector",
+                "type": "INTERNAL_ACCOUNT"
+              }
+            ]
+          }
+        ]
       },
       "states": []
     },
