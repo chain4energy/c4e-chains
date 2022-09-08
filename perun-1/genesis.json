@@ -1195,7 +1195,12 @@
         "withdraw_addr_enabled": true
       },
       "fee_pool": {
-        "community_pool": []
+        "community_pool": [
+          {
+            "amount": "100000000000000.000000000000000000",
+            "denom": "uc4e"
+          }
+        ]
       },
       "delegator_withdraw_infos": [],
       "previous_proposer": "",
