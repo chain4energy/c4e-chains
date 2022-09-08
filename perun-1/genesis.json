@@ -30,7 +30,428 @@
         "sig_verify_cost_ed25519": "590",
         "sig_verify_cost_secp256k1": "1000"
       },
-      "accounts": []
+      "accounts": [
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1z5h0squtynr8rhwl0mzqdcd0wgmfyvpqmx3y2r",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "6615000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1x6umuffxgcrgqqqdncwn2t8qdnc2muvultxmza",
+              "pub_key": null,
+              "account_number": "1",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "4900000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1wrhuuwjjmkjx3lxs08ych9ddgdzvujgdr6hnwv",
+              "pub_key": null,
+              "account_number": "2",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "4900000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e12rxujjj4th90t8z30gnre5tv4zmguuqvtn2u02",
+              "pub_key": null,
+              "account_number": "3",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "4900000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1zvkxuvk8t6wju76pxkp3f4kk447sjm2kdsgvwy",
+              "pub_key": null,
+              "account_number": "4",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "2450000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e13qamrx863pa72ku88d3ykypdh0ar6rjycnpkl2",
+              "pub_key": null,
+              "account_number": "5",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "1960000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1f57wax48ttw068e6lgag9fse62d4m3e24u0sph",
+              "pub_key": null,
+              "account_number": "6",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "2450000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1jxlv64qf8rvy8zayl7m2m8a0jzhxkfj9aw96f3",
+              "pub_key": null,
+              "account_number": "7",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "490000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1cpnh73765mx3q87lxacqwvwxn4s8ppry458xp4",
+              "pub_key": null,
+              "account_number": "8",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "749999999999"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1argfhnzzxjft426tnj4crjsu8lqp0av3x8gjey",
+              "pub_key": null,
+              "account_number": "9",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "562499999999"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1w8hdxd6g7vzupll9ynmenjkln9rs4kcq0mdesf",
+              "pub_key": null,
+              "account_number": "10",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "299999999999"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e12znccp5u8zx9qy4u9gmpxjge9reaxy80qfm295",
+              "pub_key": null,
+              "account_number": "11",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "299999999999"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1t45l2pnk5uwj2qqjw4f6rcy6jw5f9lkplmp49e",
+              "pub_key": null,
+              "account_number": "12",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "149999999999"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1nmfgexjj3yvvrnc2n7yyahgxsm0vqcm57dqx5f",
+              "pub_key": null,
+              "account_number": "13",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "449999999999"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1ej2es5fjztqjcd4pwa0zyvaevtjd2y5wq2vaaq",
+              "pub_key": null,
+              "account_number": "14",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "399999999999"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1dsm96gwcv35m4rqd93pzcsztpkrqe0ev7getj8",
+              "pub_key": null,
+              "account_number": "15",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "8899999999999"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e10wjj2qmn4zjg2sdxq9mfyj5v4yukwyhzdtf2zp",
+              "pub_key": null,
+              "account_number": "16",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "6574999999999"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1zrd0783g8qa5659apw5tpuqmz2ct6j20t4ymx3",
+              "pub_key": null,
+              "account_number": "17",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "6574999999999"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1y8lndj6jz5z93g4xd05nmwyc3wtn39dfgfx7r7",
+              "pub_key": null,
+              "account_number": "18",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "2949999999999"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1758821178"
+          },
+          "start_time": "1695707326"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e12845qa79cwlvf3jdcnfq2jy2jfmzslcg52lv3g",
+              "pub_key": null,
+              "account_number": "19",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "237500000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1735153483"
+          },
+          "start_time": "1687818094"
+        }
+      ]
     },
     "authz": {
       "authorization": []
