@@ -1126,13 +1126,60 @@
       "params": {}
     },
     "cfevesting": {
+      "account_vestings_list": {
+        "vestings": [
+          {
+            "address": "c4e1p0smw03cwhqn05fkalfpcr0ngqv5jrpnx2cp54",
+            "vesting_pools": [
+              {
+                "id": 1,
+                "last_modification": "2022-09-26T00:00:00.00000000Z",
+                "last_modification_vested": "15000000000000",
+                "last_modification_withdrawn": "0",
+                "lock_end": "2025-09-25T00:00:00.00000000Z",
+                "lock_start": "2023-09-26T00:00:00.00000000Z",
+                "name": "Advisors pool",
+                "sent": "0",
+                "vested": "12087500000000",
+                "vesting_type": "Advisors pool",
+                "withdrawn": "0"
+              },
+              {
+                "id": 2,
+                "last_modification": "2022-09-26T00:00:00.00000000Z",
+                "last_modification_vested": "17500000000000",
+                "last_modification_withdrawn": "0",
+                "lock_end": "2025-09-25T00:00:00.00000000Z",
+                "lock_start": "2023-09-26T00:00:00.00000000Z",
+                "name": "Validators pool",
+                "sent": "0",
+                "vested": "80498690000000",
+                "vesting_type": "Validators pool",
+                "withdrawn": "0"
+              }
+            ]
+          }
+        ]
+      },
       "params": {
         "denom": "uc4e"
       },
-      "vesting_types": [],
-      "account_vestings_list": {
-        "vestings": []
-      }
+      "vesting_types": [
+        {
+          "lockup_period": 365,
+          "lockup_period_unit": "day",
+          "name": "Advisors pool",
+          "vesting_period": 730,
+          "vesting_period_unit": "day"
+        },
+        {
+          "lockup_period": 365,
+          "lockup_period_unit": "day",
+          "name": "Validators pool",
+          "vesting_period": 730,
+          "vesting_period_unit": "day"
+        }
+      ]
     },
     "crisis": {
       "constant_fee": {
