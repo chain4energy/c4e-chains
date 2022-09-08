@@ -42,7 +42,29 @@
       },
       "balances": [],
       "supply": [],
-      "denom_metadata": []
+      "denom_metadata": [
+        {
+          "description": "Chain4Energy Token",
+          "denom_units": [
+            {
+              "denom": "uc4e",
+              "exponent": 0,
+              "aliases": [
+                "microc4e"
+              ]
+            },
+            {
+              "denom": "c4e",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "uc4e",
+          "display": "c4e",
+          "name": "Chain4Energy Coin",
+          "symbol": "C4E"
+        }
+      ]
     },
     "capability": {
       "index": "1",
