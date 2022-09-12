@@ -1141,7 +1141,7 @@
                 "name": "Advisors pool",
                 "sent": "0",
                 "vested": "12087500000000",
-                "vesting_type": "Advisors pool",
+                "vesting_type": "Advisors",
                 "withdrawn": "0"
               },
               {
@@ -1154,7 +1154,7 @@
                 "name": "Validators pool",
                 "sent": "0",
                 "vested": "80498690000000",
-                "vesting_type": "Validators pool",
+                "vesting_type": "Validators",
                 "withdrawn": "0"
               }
             ]
@@ -1168,14 +1168,14 @@
         {
           "lockup_period": 365,
           "lockup_period_unit": "day",
-          "name": "Advisors pool",
+          "name": "Advisors",
           "vesting_period": 730,
           "vesting_period_unit": "day"
         },
         {
           "lockup_period": 365,
           "lockup_period_unit": "day",
-          "name": "Validators pool",
+          "name": "Validators",
           "vesting_period": 730,
           "vesting_period_unit": "day"
         }
