@@ -1173,10 +1173,10 @@
           "vesting_period_unit": "day"
         },
         {
-          "lockup_period": 365,
+          "lockup_period": 274,
           "lockup_period_unit": "day",
           "name": "Validators",
-          "vesting_period": 730,
+          "vesting_period": 548,
           "vesting_period_unit": "day"
         }
       ]
