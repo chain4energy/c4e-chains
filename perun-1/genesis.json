@@ -211,7 +211,7 @@
             "original_vesting": [
               {
                 "denom": "uc4e",
-                "amount": "749999999999"
+                "amount": "749990000000"
               }
             ],
             "delegated_free": [],
@@ -232,7 +232,7 @@
             "original_vesting": [
               {
                 "denom": "uc4e",
-                "amount": "562499999999"
+                "amount": "562490000000"
               }
             ],
             "delegated_free": [],
@@ -253,7 +253,7 @@
             "original_vesting": [
               {
                 "denom": "uc4e",
-                "amount": "299999999999"
+                "amount": "299990000000"
               }
             ],
             "delegated_free": [],
@@ -274,7 +274,7 @@
             "original_vesting": [
               {
                 "denom": "uc4e",
-                "amount": "299999999999"
+                "amount": "299990000000"
               }
             ],
             "delegated_free": [],
@@ -295,7 +295,7 @@
             "original_vesting": [
               {
                 "denom": "uc4e",
-                "amount": "149999999999"
+                "amount": "149990000000"
               }
             ],
             "delegated_free": [],
@@ -316,7 +316,7 @@
             "original_vesting": [
               {
                 "denom": "uc4e",
-                "amount": "449999999999"
+                "amount": "449990000000"
               }
             ],
             "delegated_free": [],
@@ -337,7 +337,7 @@
             "original_vesting": [
               {
                 "denom": "uc4e",
-                "amount": "399999999999"
+                "amount": "399990000000"
               }
             ],
             "delegated_free": [],
@@ -358,7 +358,7 @@
             "original_vesting": [
               {
                 "denom": "uc4e",
-                "amount": "8899999999999"
+                "amount": "8899990000000"
               }
             ],
             "delegated_free": [],
@@ -379,7 +379,7 @@
             "original_vesting": [
               {
                 "denom": "uc4e",
-                "amount": "6574999999999"
+                "amount": "6574990000000"
               }
             ],
             "delegated_free": [],
@@ -400,7 +400,7 @@
             "original_vesting": [
               {
                 "denom": "uc4e",
-                "amount": "6574999999999"
+                "amount": "6574990000000"
               }
             ],
             "delegated_free": [],
@@ -421,7 +421,7 @@
             "original_vesting": [
               {
                 "denom": "uc4e",
-                "amount": "2949999999999"
+                "amount": "2949990000000"
               }
             ],
             "delegated_free": [],
@@ -564,11 +564,25 @@
           "sequence": "0"
         },
         {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "c4e1hcfjejmxzl8d95xka5j8cjegmf32u2lee3q422",
-          "pub_key": null,
-          "account_number": "36",
-          "sequence": "0"
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "c4e1hcfjejmxzl8d95xka5j8cjegmf32u2lee3q422",
+              "pub_key": null,
+              "account_number": "36",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uc4e",
+                "amount": "119999990000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1821935030"
+          },
+          "start_time": "1727264252"
         },
         {
           "@type": "/cosmos.auth.v1beta1.ModuleAccount",
