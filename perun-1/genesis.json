@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-09-14T11:35:12.907872081Z",
+  "genesis_time": "2022-09-14T11:10:12.907872081Z",
   "chain_id": "perun-1",
   "initial_height": "1",
   "consensus_params": {
@@ -1318,7 +1318,7 @@
             }
           },
           "signatures": [
-            "CkAXQIogKtdMuhq/nLvgELIYSVZNW5ivqSVYi+/kFlgC8UwPLt1fHyoqdYLcxLje3wHDglHcqdVzPPmIPYS6P4uU"
+            "CkCWJzl+lx0xE75iIt2R8PdhGpvzPnZ0+WUrn1T2+luYIyaqSbPzowi0+Ixi+A2ew9qK4VhDzmIgl9fDiIWuhupq"
           ]
         },
         {
@@ -1403,7 +1403,7 @@
             }
           },
           "signatures": [
-            "CkCklRKXt7rH6a3m/4SaH022Tj9McoHd4azzQl8tA5PpojRvmQThCcDrEf3ImTQOzKOVkkcT/UYN/U7pLQ5/veHF"
+            "CkD1VeE/fE+otQmX+BkvG0lfzvKM1S9M3w8tNcJ/H2dDPyXghkuG0dPvqX1U2QrqOlmiVmz2tzPNkvnW7B7bTQtL"
           ]
         },
         {
@@ -1488,7 +1488,7 @@
             }
           },
           "signatures": [
-            "CkCToea5M+puqdd6BLd9iGHBDwpsy+6tx4FDLkSttZ6WdVD0xEjTft4U2rlDW+R29TMKH3a4OkL6nmoa1zzJxHtd"
+            "CkAFHCz9hFCyrtrCEJY5khfn/e+DYQ6YrLUHGbgiX8d2zU7XEbzWhQul0r37g0KWg1BFTdYGj4U6JcwU+3l2Mon9"
           ]
         },
         {
@@ -1573,7 +1573,7 @@
             }
           },
           "signatures": [
-            "CkB+9W0lgdxsu2K0QikClhx4tTLCFV+vwMCNZrLm2Or/8HcJ1YwZvHGZAhSuRD/WrSHD7AoP5P4DXVXK2XcT4cIy"
+            "CkA11lHIRhxIEjhDfvLQIIaYWkPbblmPerJCRIydjRUMgwIJwMxPQhgOR6KfjnGNW9sfsZt6QlTRTLxTx4Zd8PpX"
           ]
         }
       ]
