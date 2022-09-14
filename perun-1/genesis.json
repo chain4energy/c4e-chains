@@ -1119,7 +1119,10 @@
       },
       "minter_state": {
         "position": 1,
-        "amount_minted": "0"
+        "amount_minted": "0",
+        "remainder_to_mint": "0.000000000000000000",
+        "last_mint_block_time": "2022-09-14T09:05:12.907872081Z",
+        "remainder_from_previous_period": "0.000000000000000000"
       }
     },
     "cfesignature": {
