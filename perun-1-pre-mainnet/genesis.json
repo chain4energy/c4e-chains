@@ -1116,28 +1116,32 @@
       "states": []
     },
     "cfeminter": {
+      "minter_state": {
+        "amount_minted": "0",
+        "last_mint_block_time": "2022-09-19T10:17:31.485659189Z",
+        "position": 1,
+        "remainder_from_previous_period": "0.000000000000000000",
+        "remainder_to_mint": "0.000000000000000000"
+      },
       "params": {
         "mint_denom": "uc4e",
         "minter": {
-          "start": "2022-09-07T15:10:12.893036318Z",
           "periods": [
             {
+              "periodic_reduction_minter": {
+                "mint_amount": "40000000000000",
+                "mint_period": 31536000,
+                "reduction_factor": "0.5",
+                "reduction_period_length": 4
+              },
               "position": 1,
-              "period_end": null,
-              "type": "NO_MINTING",
-              "time_linear_minter": null,
-              "periodic_reduction_minter": null
+              "type": "PERIODIC_REDUCTION_MINTER"
             }
-          ]
+          ],
+          "start": "2022-07-05T00:00:00.00000000Z"
         }
       },
-      "minter_state": {
-        "position": 1,
-        "amount_minted": "0",
-        "remainder_to_mint": "0.000000000000000000",
-        "last_mint_block_time": "2022-09-14T09:05:12.907872081Z",
-        "remainder_from_previous_period": "0.000000000000000000"
-      }
+      "state_history": []
     },
     "cfesignature": {
       "params": {}
