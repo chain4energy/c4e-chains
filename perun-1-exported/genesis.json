@@ -1549,7 +1549,7 @@
               {
                 "id": 1,
                 "last_modification": "2022-09-21T06:20:26.308555240Z",
-                "last_modification_vested": "50000000",
+                "last_modification_vested": "0",
                 "last_modification_withdrawn": "50000000",
                 "lock_end": "2022-09-21T06:32:20.028496423Z",
                 "lock_start": "2022-09-21T06:12:20.028496423Z",
@@ -1562,7 +1562,7 @@
               {
                 "id": 2,
                 "last_modification": "2022-09-21T06:42:04.080683696Z",
-                "last_modification_vested": "10000000",
+                "last_modification_vested": "0",
                 "last_modification_withdrawn": "10000000",
                 "lock_end": "2022-09-21T06:47:04.080683696Z",
                 "lock_start": "2022-09-21T06:42:04.080683696Z",
