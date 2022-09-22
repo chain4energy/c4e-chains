@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-09-14T13:18:00.907872081Z",
+  "genesis_time": "2022-09-22T14:00:00.00000000Z",
   "chain_id": "perun-1",
   "initial_height": "1",
   "consensus_params": {
@@ -1150,11 +1150,11 @@
             "vesting_pools": [
               {
                 "id": 1,
-                "last_modification": "2022-09-08T00:00:00.00000000Z",
+                "last_modification": "2022-09-22T14:00:00.00000000Z",
                 "last_modification_vested": "12087500000000",
                 "last_modification_withdrawn": "0",
                 "lock_end": "2025-09-25T00:00:00.00000000Z",
-                "lock_start": "2022-09-08T00:00:00.00000000Z",
+                "lock_start": "2022-09-22T14:00:00.00000000Z",
                 "name": "Advisors pool",
                 "sent": "0",
                 "vested": "12087500000000",
@@ -1163,11 +1163,11 @@
               },
               {
                 "id": 2,
-                "last_modification": "2022-09-08T00:00:00.00000000Z",
+                "last_modification": "2022-09-22T14:00:00.00000000Z",
                 "last_modification_vested": "80498690000000",
                 "last_modification_withdrawn": "0",
                 "lock_end": "2024-12-26T00:00:00.00000000Z",
-                "lock_start": "2022-09-08T00:00:00.00000000Z",
+                "lock_start": "2022-09-22T14:00:00.00000000Z",
                 "name": "Validators pool",
                 "sent": "0",
                 "vested": "80498690000000",
@@ -1751,7 +1751,7 @@
     "staking": {
       "params": {
         "unbonding_time": "1814400s",
-        "max_validators": 50,
+        "max_validators": 75,
         "max_entries": 7,
         "historical_entries": 10000,
         "bond_denom": "uc4e"
