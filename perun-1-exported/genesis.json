@@ -1509,7 +1509,7 @@
     },
     "cfeminter": {
       "minter_state": {
-        "amount_minted": "8610208590183",
+        "amount_minted": "6610208590183",
         "last_mint_block_time": "2022-09-21T13:38:08.452500498Z",
         "position": 1,
         "remainder_from_previous_period": "0.000000000000000000",
