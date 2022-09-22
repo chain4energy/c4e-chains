@@ -1520,6 +1520,7 @@
         "minter": {
           "periods": [
             {
+              "period_end": null,
               "periodic_reduction_minter": {
                 "mint_amount": "40000000000000",
                 "mint_period": 31536000,
