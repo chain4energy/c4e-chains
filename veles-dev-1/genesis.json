@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-09-28T09:45:00Z",
+  "genesis_time": "2022-09-28T10:15:00Z",
   "chain_id": "veles-dev-1",
   "initial_height": "1",
   "consensus_params": {
@@ -1657,7 +1657,7 @@
             "amount": "10000000000"
           }
         ],
-        "max_deposit_period": "604800s"
+        "max_deposit_period": "10800s"
       },
       "voting_params": {
         "voting_period": "604800s"
