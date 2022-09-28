@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-09-22T14:00:00.00000000Z",
+  "genesis_time": "2022-09-28T09:45:00Z",
   "chain_id": "veles-dev-1",
   "initial_height": "1",
   "consensus_params": {
@@ -1398,7 +1398,252 @@
       "allowances": []
     },
     "genutil": {
-      "gen_txs": []
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Biot C4E ⚡🔋 DEV",
+                  "identity": "E6472AB5E1C3374C",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "c4e1pcu4tejzpnzh75mvrunclsndsf9c9chkgkg23r",
+                "validator_address": "c4evaloper1pcu4tejzpnzh75mvrunclsndsf9c9chkch4qs5",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "T7TdM+QD+ThBMcVakz/jE9rTCW8xo1xyByA2nbtt0n4="
+                },
+                "value": {
+                  "denom": "uc4e",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "0e5bd152939ecbaec191ed673a37b4c9e2d41f5a@51.38.43.95:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A0CbUc83/tr9CYCkx5nFYv+QQcGni0yxzHvYe2r803tZ"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "SDvkgrD/pipXeU6Vs4ong/g/1wrLRyuqXZdbT7XfHehulv7CCXqkI2TGsT+6SDBpSvfhHPMrgtl/bxBW/jHcmw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Amona C4E 🌪🔋 DEV",
+                  "identity": "4201D125FCFDB166",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "c4e1wgvmxceee0u2ehgly9y4ajxgetyndlej2jvydx",
+                "validator_address": "c4evaloper1wgvmxceee0u2ehgly9y4ajxgetyndlej6n3wv3",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "CJc4HRP5cnSt/BOEgC6/a1vV9V6CUqcjCEyEi6LNl8w="
+                },
+                "value": {
+                  "denom": "uc4e",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "560dc34c1f10872bb8c9b6129e43b1fe42905dd2@54.39.106.125:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A+FmkQvI2YPDrtmXnJihIirTGcd7pWe93c7khmXaesrK"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "s8AzHL9thk7eCMiwB0zVg5zudas0vT9z8jHMAzkGhLUXtyZC1pgTVTKCKBwOBlBu6oknIcv10RTAooGoT8cMSg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Olokuna C4E 💧🔋 DEV",
+                  "identity": "E556E72599552C47",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "c4e1mmqyfqce2c0fveqy9rnfrxx5hf26u3g875rvd4",
+                "validator_address": "c4evaloper1mmqyfqce2c0fveqy9rnfrxx5hf26u3g8w47xvz",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "WBbk1bxMTcXXZZHhFW56DY3wd6wJFxhDWnwEoskVcr4="
+                },
+                "value": {
+                  "denom": "uc4e",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "8369436d7ed48e5f782882884c35ba57f519da70@51.38.59.145:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AuDRnjyPuXxC1+AAXAhJKdEcKXc0h+tTQeStUsS9JMBD"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "5jbVD+gI+PGXiI4XzKWnT7/ncO8/7v1SqwJyiYTT7rsssdtTQZVVer4mBIdIPdzi2HcDZnPQRqalI19tO23YHQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Hel C4E ☀🔋 DEV",
+                  "identity": "9DB14A6266E2296B",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "c4e1k54zdvea4yrllzjxkuk2hmmhu478mhj2f9yzrk",
+                "validator_address": "c4evaloper1k54zdvea4yrllzjxkuk2hmmhu478mhj2eyegzp",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "f8Cxl4NpLQuEiVcngR6DauJur9yNBdnU3gPhxWW9MYY="
+                },
+                "value": {
+                  "denom": "uc4e",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "8f652c7c38c0f0d8c10e82b120ed6b72a0326428@54.39.107.175:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A5UgHZcQ6XIL7CYWK4yB34KqvaMldK9NlZyoqpTUlJi8"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "YM5GE1LF2sZWZn7cJ+yoym50YwY+U/HzNm9ecoqty6ZRMyIu6A53ZpIy/ApsIrQjZrx2ea/6RKCv5d+h1TxBiQ=="
+          ]
+        }
+      ]
     },
     "gov": {
       "starting_proposal_id": "1",
