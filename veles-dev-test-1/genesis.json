@@ -2040,64 +2040,14 @@
       },
       "supply": [
         {
-          "amount": "1500000",
-          "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518"
-        },
-        {
           "amount": "420000080000000",
           "denom": "uc4e"
         }
       ]
     },
     "capability": {
-      "index": "4",
-      "owners": [
-        {
-          "index": "1",
-          "index_owners": {
-            "owners": [
-              {
-                "module": "ibc",
-                "name": "ports/transfer"
-              },
-              {
-                "module": "transfer",
-                "name": "ports/transfer"
-              }
-            ]
-          }
-        },
-        {
-          "index": "2",
-          "index_owners": {
-            "owners": [
-              {
-                "module": "ibc",
-                "name": "ports/monitoringp"
-              },
-              {
-                "module": "monitoringp",
-                "name": "ports/monitoringp"
-              }
-            ]
-          }
-        },
-        {
-          "index": "3",
-          "index_owners": {
-            "owners": [
-              {
-                "module": "ibc",
-                "name": "capabilities/ports/transfer/channels/channel-0"
-              },
-              {
-                "module": "transfer",
-                "name": "capabilities/ports/transfer/channels/channel-0"
-              }
-            ]
-          }
-        }
-      ]
+      "index": "1",
+      "owners": []
     },
     "cfedistributor": {
       "params": {
