@@ -1686,10 +1686,6 @@
           "address": "c4e10mm944ph9jrgdjm5agwrk0csglev44nck2fdjn",
           "coins": [
             {
-              "amount": "1500000",
-              "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518"
-            },
-            {
               "amount": "443004174",
               "denom": "uc4e"
             }
