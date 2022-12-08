@@ -3338,7 +3338,7 @@
         "historical_entries": 10000,
         "max_entries": 7,
         "max_validators": 75,
-        "unbonding_time": "1814400s"
+        "unbonding_time": "60s"
       },
       "redelegations": [],
       "unbonding_delegations": [],
@@ -3496,7 +3496,7 @@
     },
     "version": {}
   },
-  "genesis_time": "2022-12-08T14:10:00Z",
+  "genesis_time": "2022-12-08T14:40:00Z",
   "initial_height": "1",
   "validators": [
     {
