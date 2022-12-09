@@ -1650,7 +1650,7 @@
           "address": "c4e10d07y265gmmuvt4z0w9aw880jnsr700je62g0d",
           "coins": [
             {
-              "amount": "11000000000",
+              "amount": "0",
               "denom": "uc4e"
             }
           ]
