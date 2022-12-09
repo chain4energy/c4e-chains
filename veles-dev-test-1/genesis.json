@@ -2994,114 +2994,26 @@
       "gen_txs": []
     },
     "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
       "deposit_params": {
-        "max_deposit_period": "10800s",
         "min_deposit": [
           {
-            "amount": "10000000000",
-            "denom": "uc4e"
+            "denom": "uc4e",
+            "amount": "10000000000"
           }
-        ]
+        ],
+        "max_deposit_period": "10800s"
       },
-      "deposits": [
-        {
-          "amount": [
-            {
-              "amount": "11000000000",
-              "denom": "uc4e"
-            }
-          ],
-          "depositor": "c4e15dwxa9jq7mjv3kpw3qxgx4v7asmh3yqh3zre47",
-          "proposal_id": "2"
-        }
-      ],
-      "proposals": [
-        {
-          "content": {
-            "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
-            "changes": [
-              {
-                "key": "votingparams",
-                "subspace": "gov",
-                "value": "{\"voting_period\":\"10800000000000\"}"
-              }
-            ],
-            "description": "Chage VotingPeriod",
-            "title": "GOV MODULE - VotingPeriod change to 3h"
-          },
-          "deposit_end_time": "2022-11-03T15:49:38.638018396Z",
-          "final_tally_result": {
-            "abstain": "0",
-            "no": "0",
-            "no_with_veto": "0",
-            "yes": "100000000"
-          },
-          "proposal_id": "1",
-          "status": "PROPOSAL_STATUS_PASSED",
-          "submit_time": "2022-11-03T12:49:38.638018396Z",
-          "total_deposit": [
-            {
-              "amount": "11000000000",
-              "denom": "uc4e"
-            }
-          ],
-          "voting_end_time": "2022-11-10T12:49:38.638018396Z",
-          "voting_start_time": "2022-11-03T12:49:38.638018396Z"
-        },
-        {
-          "content": {
-            "@type": "/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal",
-            "description": "Upgrade to alpha version test migration",
-            "plan": {
-              "height": "695921",
-              "info": "",
-              "name": "v1.0.1",
-              "time": "0001-01-01T00:00:00Z",
-              "upgraded_client_state": null
-            },
-            "title": "Upgrade v1.1.0-alpha"
-          },
-          "deposit_end_time": "2022-11-10T15:59:17.753065067Z",
-          "final_tally_result": {
-            "abstain": "0",
-            "no": "0",
-            "no_with_veto": "0",
-            "yes": "0"
-          },
-          "proposal_id": "2",
-          "status": "PROPOSAL_STATUS_VOTING_PERIOD",
-          "submit_time": "2022-11-10T12:59:17.753065067Z",
-          "total_deposit": [
-            {
-              "amount": "11000000000",
-              "denom": "uc4e"
-            }
-          ],
-          "voting_end_time": "2022-11-10T15:59:17.753065067Z",
-          "voting_start_time": "2022-11-10T12:59:17.753065067Z"
-        }
-      ],
-      "starting_proposal_id": "3",
+      "voting_params": {
+        "voting_period": "604800s"
+      },
       "tally_params": {
         "quorum": "0.300000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000"
-      },
-      "votes": [
-        {
-          "option": "VOTE_OPTION_YES",
-          "options": [
-            {
-              "option": "VOTE_OPTION_YES",
-              "weight": "1.000000000000000000"
-            }
-          ],
-          "proposal_id": "2",
-          "voter": "c4e15dwxa9jq7mjv3kpw3qxgx4v7asmh3yqh3zre47"
-        }
-      ],
-      "voting_params": {
-        "voting_period": "10800s"
       }
     },
     "ibc": {
