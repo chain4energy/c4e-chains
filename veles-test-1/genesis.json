@@ -1,6 +1,6 @@
 {
   "genesis_time": "2022-09-30T11:00:00Z",
-  "chain_id": "veles-test-1",
+  "chain_id": "veles-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
