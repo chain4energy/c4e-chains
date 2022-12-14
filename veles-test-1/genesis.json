@@ -1660,7 +1660,7 @@
         "max_deposit_period": "10800s"
       },
       "voting_params": {
-        "voting_period": "300000000000"
+        "voting_period": "300s"
       },
       "tally_params": {
         "quorum": "0.100000000000000000",
