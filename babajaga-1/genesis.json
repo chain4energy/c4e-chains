@@ -53,6 +53,20 @@
           "start_time": "1695707326"
         },
         {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "c4e1ymmf53emznzzaa30yel8eurghha3ze0clfc5my",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "c4e1lhtjqgakzr395tf7ssk9prwap50nvrmw0xdzse",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
           "base_vesting_account": {
             "base_account": {
@@ -573,9 +587,9 @@
         {
           "@type": "/cosmos.auth.v1beta1.ModuleAccount",
           "base_account": {
-            "account_number": "37",
             "address": "c4e1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8y8a3sp",
             "pub_key": null,
+            "account_number": "37",
             "sequence": "0"
           },
           "name": "distribution",
@@ -584,9 +598,9 @@
         {
           "@type": "/cosmos.auth.v1beta1.ModuleAccount",
           "base_account": {
-            "account_number": "38",
             "address": "c4e1dutmadwfernuzmzk8ndtfah254yhrnv34y68ts",
             "pub_key": null,
+            "account_number": "38",
             "sequence": "0"
           },
           "name": "fairdrop",
@@ -595,9 +609,9 @@
         {
           "@type": "/cosmos.auth.v1beta1.ModuleAccount",
           "base_account": {
-            "account_number": "39",
             "address": "c4e17yryahw88nkwsaphuywhv7ap8ty7zwgunjsple",
             "pub_key": null,
+            "account_number": "39",
             "sequence": "0"
           },
           "name": "cfevesting",
@@ -614,195 +628,6 @@
         "default_send_enabled": true
       },
       "balances": [
-        {
-          "address": "c4e1z5h0squtynr8rhwl0mzqdcd0wgmfyvpqmx3y2r",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "6750000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1x6umuffxgcrgqqqdncwn2t8qdnc2muvultxmza",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "5000000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1wrhuuwjjmkjx3lxs08ych9ddgdzvujgdr6hnwv",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "5000000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e12rxujjj4th90t8z30gnre5tv4zmguuqvtn2u02",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "5000000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1zvkxuvk8t6wju76pxkp3f4kk447sjm2kdsgvwy",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "2500000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e13qamrx863pa72ku88d3ykypdh0ar6rjycnpkl2",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "2000000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1f57wax48ttw068e6lgag9fse62d4m3e24u0sph",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "2500000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1jxlv64qf8rvy8zayl7m2m8a0jzhxkfj9aw96f3",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "500000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1cpnh73765mx3q87lxacqwvwxn4s8ppry458xp4",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "750000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1argfhnzzxjft426tnj4crjsu8lqp0av3x8gjey",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "562500000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1w8hdxd6g7vzupll9ynmenjkln9rs4kcq0mdesf",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "300000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e12znccp5u8zx9qy4u9gmpxjge9reaxy80qfm295",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "300000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1t45l2pnk5uwj2qqjw4f6rcy6jw5f9lkplmp49e",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "150000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1nmfgexjj3yvvrnc2n7yyahgxsm0vqcm57dqx5f",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "450000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1ej2es5fjztqjcd4pwa0zyvaevtjd2y5wq2vaaq",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "400000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1dsm96gwcv35m4rqd93pzcsztpkrqe0ev7getj8",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "8900000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e10wjj2qmn4zjg2sdxq9mfyj5v4yukwyhzdtf2zp",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "6575000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1zrd0783g8qa5659apw5tpuqmz2ct6j20t4ymx3",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "6575000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1y8lndj6jz5z93g4xd05nmwyc3wtn39dfgfx7r7",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "2950000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e12845qa79cwlvf3jdcnfq2jy2jfmzslcg52lv3g",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "250000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e10ep2sxpf2kj6j26w7f4uuafedkuf9sf9xqq3sl",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "10000000"
-            }
-          ]
-        },
         {
           "address": "c4e1q5vgy0r3w9q4cclucr2kl8nwmfe2mgr6g0jlph",
           "coins": [
@@ -822,20 +647,65 @@
           ]
         },
         {
-          "address": "c4e1jr0ft7p2fgqxjrqxsakz9re0ae5499uz2cfmra",
+          "address": "c4e1psaq0n2lzh84lzgh39kghuy0n256xltlcmea52",
           "coins": [
             {
               "denom": "uc4e",
-              "amount": "300000000"
+              "amount": "10000000"
             }
           ]
         },
         {
-          "address": "c4e1tw2crl23vluafhcvydhpnkejwth70y9knpsht7",
+          "address": "c4e1zrd0783g8qa5659apw5tpuqmz2ct6j20t4ymx3",
           "coins": [
             {
               "denom": "uc4e",
-              "amount": "300000000"
+              "amount": "6575000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1zvkxuvk8t6wju76pxkp3f4kk447sjm2kdsgvwy",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "2500000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1z5h0squtynr8rhwl0mzqdcd0wgmfyvpqmx3y2r",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "6750000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1r2ennr6ywv567lks3q5gujt4def726fe3t2tus",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1y8lndj6jz5z93g4xd05nmwyc3wtn39dfgfx7r7",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "2950000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1ymmf53emznzzaa30yel8eurghha3ze0clfc5my",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "10000000"
             }
           ]
         },
@@ -849,6 +719,24 @@
           ]
         },
         {
+          "address": "c4e19473sdmlkkvcdh6z3tqedtqsdqj4jjv7htsuaa",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1x6umuffxgcrgqqqdncwn2t8qdnc2muvultxmza",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
           "address": "c4e183f5fu67gagckux336kmjw75qw7dha5ycn5f6r",
           "coins": [
             {
@@ -858,7 +746,196 @@
           ]
         },
         {
-          "address": "c4e1r2ennr6ywv567lks3q5gujt4def726fe3t2tus",
+          "address": "c4e1f57wax48ttw068e6lgag9fse62d4m3e24u0sph",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "2500000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e12znccp5u8zx9qy4u9gmpxjge9reaxy80qfm295",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "300000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e12rxujjj4th90t8z30gnre5tv4zmguuqvtn2u02",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e12845qa79cwlvf3jdcnfq2jy2jfmzslcg52lv3g",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "250000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1tw2crl23vluafhcvydhpnkejwth70y9knpsht7",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "300000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1t45l2pnk5uwj2qqjw4f6rcy6jw5f9lkplmp49e",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "150000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1dsm96gwcv35m4rqd93pzcsztpkrqe0ev7getj8",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "8900000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1dutmadwfernuzmzk8ndtfah254yhrnv34y68ts",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "20000000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1wrhuuwjjmkjx3lxs08ych9ddgdzvujgdr6hnwv",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1wxu6j4c9hqs8p0cp9d805xupk2jaaakj436un5",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1w8hdxd6g7vzupll9ynmenjkln9rs4kcq0mdesf",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "300000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e10wjj2qmn4zjg2sdxq9mfyj5v4yukwyhzdtf2zp",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "6575000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e10ep2sxpf2kj6j26w7f4uuafedkuf9sf9xqq3sl",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e13qamrx863pa72ku88d3ykypdh0ar6rjycnpkl2",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "2000000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1jr0ft7p2fgqxjrqxsakz9re0ae5499uz2cfmra",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "300000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1jxlv64qf8rvy8zayl7m2m8a0jzhxkfj9aw96f3",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "500000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8y8a3sp",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "100000000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1nmfgexjj3yvvrnc2n7yyahgxsm0vqcm57dqx5f",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "450000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1kezlq0rtpqp583grqa5pxpwyl7qe8pj53c78r6",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1hcfjejmxzl8d95xka5j8cjegmf32u2lee3q422",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "120000000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1cpnh73765mx3q87lxacqwvwxn4s8ppry458xp4",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "750000000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1cexgny8txluzq550zqhz9m9cpeydjsk68yanwp",
           "coins": [
             {
               "denom": "uc4e",
@@ -876,56 +953,11 @@
           ]
         },
         {
-          "address": "c4e19473sdmlkkvcdh6z3tqedtqsdqj4jjv7htsuaa",
+          "address": "c4e1ej2es5fjztqjcd4pwa0zyvaevtjd2y5wq2vaaq",
           "coins": [
             {
               "denom": "uc4e",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1psaq0n2lzh84lzgh39kghuy0n256xltlcmea52",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1kezlq0rtpqp583grqa5pxpwyl7qe8pj53c78r6",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1wxu6j4c9hqs8p0cp9d805xupk2jaaakj436un5",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1cexgny8txluzq550zqhz9m9cpeydjsk68yanwp",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1ar0epa92l64ytrrzrjxl6ex8jhzx27k38z95dq",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "10000000"
+              "amount": "400000000000"
             }
           ]
         },
@@ -939,29 +971,20 @@
           ]
         },
         {
-          "address": "c4e1hcfjejmxzl8d95xka5j8cjegmf32u2lee3q422",
+          "address": "c4e1argfhnzzxjft426tnj4crjsu8lqp0av3x8gjey",
           "coins": [
             {
               "denom": "uc4e",
-              "amount": "120000000000000"
+              "amount": "562500000000"
             }
           ]
         },
         {
-          "address": "c4e1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8y8a3sp",
+          "address": "c4e1ar0epa92l64ytrrzrjxl6ex8jhzx27k38z95dq",
           "coins": [
             {
               "denom": "uc4e",
-              "amount": "100000000000000"
-            }
-          ]
-        },
-        {
-          "address": "c4e1dutmadwfernuzmzk8ndtfah254yhrnv34y68ts",
-          "coins": [
-            {
-              "denom": "uc4e",
-              "amount": "20000000000000"
+              "amount": "10000000"
             }
           ]
         },
@@ -971,6 +994,15 @@
             {
               "denom": "uc4e",
               "amount": "92586190000000"
+            }
+          ]
+        },
+        {
+          "address": "c4e1lhtjqgakzr395tf7ssk9prwap50nvrmw0xdzse",
+          "coins": [
+            {
+              "denom": "uc4e",
+              "amount": "1000000000000000"
             }
           ]
         }
@@ -1102,25 +1134,29 @@
       "states": []
     },
     "cfeminter": {
+      "minter_state": {
+        "amount_minted": "0",
+        "last_mint_block_time": "2023-05-15T14:50:17.040895261Z",
+        "position": 1,
+        "remainder_from_previous_period": "0.000000000000000000",
+        "remainder_to_mint": "0.000000000000000000"
+      },
       "params": {
         "mint_denom": "uc4e",
         "minter": {
-          "start": "2022-09-07T15:10:12.893036318Z",
           "periods": [
             {
-              "position": 1,
               "period_end": null,
-              "type": "NO_MINTING",
+              "periodic_reduction_minter": null,
+              "position": 1,
               "time_linear_minter": null,
-              "periodic_reduction_minter": null
+              "type": "NO_MINTING"
             }
-          ]
+          ],
+          "start": "2023-05-15T14:50:17.032373268Z"
         }
       },
-      "minter_state": {
-        "current_position": 1,
-        "amount_minted": "0"
-      }
+      "state_history": []
     },
     "cfesignature": {
       "params": {}
@@ -1218,7 +1254,69 @@
       "allowances": []
     },
     "genutil": {
-      "gen_txs": []
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "amona-babajaga",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "c4e1ymmf53emznzzaa30yel8eurghha3ze0clfc5my",
+                "validator_address": "c4evaloper1ymmf53emznzzaa30yel8eurghha3ze0c0g976n",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "HJUdhxrPxYCyop2VOrd9vKqho4IPfJapIhS9HiIPWjk="
+                },
+                "value": {
+                  "denom": "uc4e",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "de18fc6b4a5a76bd30f65ebb28f880095b5dd58b@66.70.177.76:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A7J+GW8Y713JQeO7ISPlqmjVgOoU42+eZ7vkQQIi9vrp"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "nCt57uIU9n5b6A1e1JkU6SIpggGzejVNocS9BkoiWIBT4LRp4ofN1rDHqU9TYkHB9IBoyF848pMK6pgaWF4Xeg=="
+          ]
+        }
+      ]
     },
     "gov": {
       "starting_proposal_id": "1",
